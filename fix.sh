@@ -1,3 +1,4 @@
+sudo mv qt6ct.sh /etc/profile.d
 echo "Fixing Nvidia"
 sudo mkdir /etc/systemd/system/display-manager.service.d
 sudo mv 99-systemd-dri-devices.rules /etc/udev/rules.d
