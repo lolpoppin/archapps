@@ -15,6 +15,7 @@ Graphite-kde-theme/install.sh -t nord
 mkdir ~/.config/ulauncher/user-themes
 git clone https://github.com/KiranWells/ulauncher-nord/ \
   ~/.config/ulauncher/user-themes/nord
+chmod +x fix.sh
 echo "To Make lightdm work run fix.sh"
 echo "Reccommed Setting Up chotic aur and enabling multilib"
 echo "Enable the Themes in qt6ct qt5ct ulauncher and xfce settings"
