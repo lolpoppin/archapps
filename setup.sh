@@ -1,5 +1,5 @@
-sudo pacman -S base-devel fakeroot debugedit nvidia-open nvidia-settings flatpak lightdm-gtk-greeter-settings kitty dolphin ark
-sudo pacman -Rns xfce4-terminal thunar
+sudo pacman -S base-devel fakeroot debugedit nvidia-open nvidia-settings flatpak lightdm-gtk-greeter-settings kitty file-roller
+sudo pacman -Rns xfce4-terminal
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
