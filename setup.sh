@@ -1,5 +1,5 @@
 echo "Installing Packages 1/14"
-sudo pacman -S base-devel fakeroot debugedit nvidia-open nvidia-settings flatpak lightdm-gtk-greeter-settings kitty file-roller
+sudo pacman -S base-devel fakeroot debugedit nvidia-open nvidia-settings flatpak lightdm-gtk-greeter-settings kitty file-roller nwg-look
 echo "Removing Build in terminal 2/14"
 sudo pacman -Rns xfce4-terminal
 echo "Building paru 3/14"
