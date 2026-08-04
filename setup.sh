@@ -7,6 +7,8 @@ paru helium-browser-bin
 paru ulauncher
 paru qt6ct-kde
 paru qt5ct-kde
+cd
+cd archsetup
 echo "Theme"
 git clone https://github.com/vinceliuice/Graphite-gtk-theme
 Graphite-gtk-theme/install.sh --tweaks nord
